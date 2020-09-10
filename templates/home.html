@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    <title>Title</title>
+</head>
+<body>
+    <div class="content">
+        <div class="item" onclick="switchRightWhite()">
+            blanches droites
+        </div>
+        <div class="item" onclick="switchLeftWhite()">
+            blanches gauches
+        </div>
+        <div class="item" onclick="allWhite()">
+            toutes blanches
+        </div>
+        <div class="item" onclick="switchBarColor()">
+            bar couleur
+        </div>
+        <div class="item" onclick="switchRightColor()">
+            couleurs droite
+        </div>
+        <div class="item" onclick="switchLeftColor()">
+            couleurs gauche
+        </div>
+        <div class="item" onclick="switchAllColor()">
+            toutes couleurs
+        </div>
+        <div class="item" onclick="allLight()">
+            toutes lumiere
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
