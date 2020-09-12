@@ -1,13 +1,7 @@
-.content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.clickable {
+    cursor: pointer;
 }
 
-.item {
-    width: 30%;
-    height: 100px;
-    background-color: aliceblue;
-    margin: 1%;
-    box-shadow: 3px 3px 9px -3px black;
+.is-on{
+    background-color: yellow;
 }
