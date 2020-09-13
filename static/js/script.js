@@ -1,38 +1,10 @@
-function switchRightWhite() {
-    fetch("/switch_right_central")
-}
-function switchLeftWhite() {
-    fetch("/switch_left_central")
-}
 
-function allWhite() {
-    fetch("/switch_all_central")
-}
-
-function switchBarColor() {
-    fetch("/switch_bar_color")
-}
-
-function allLight() {
-    fetch("/all_light")
-}
-
-function switchRightColor() {
-    fetch("/switch_right_central")
-}
-
-function switchLeftColor() {
-    fetch("/switch_left_central")
-}
-
-function switchAllColor() {
-    fetch("/switch_all_color")
-}
 $(function() {
     let hoverColor = "#ffb1aa"
     let active = "#00FF00";
     let passive = "#b9b9b9"
     let mapPinClass = {}
+
     function setStatusAll() {
 
     }
@@ -90,15 +62,15 @@ $(function() {
     });
 
     $(".volet_down").click(function () {
-        fetch("/voletdown")
+        fetch("/volet_down")
     });
 
     $(".volet_stop").click(function () {
-        fetch("/voletstop")
+        fetch("/volet_stop")
     });
 
     $(".volet_up").click(function () {
-        fetch("/voletup")
+        fetch("/volet_up")
     });
 
     $(".alllight").click(function () {
