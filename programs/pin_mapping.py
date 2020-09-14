@@ -6,27 +6,27 @@ pin_mapping = {
     "PIN_RIGHT_CENTRAL" : 19,
 
     "PIN_LEFT_COLOR" : {
-        "VA" : 2,
-        "VIENS" : 2
+        "VA" : 22,
+        "VIENS" : 27
     },
 
     "PIN_RIGHT_COLOR" : {
-        "VA" : 2,
-        "VIENS" : 2
+        "VA" : 13,
+        "VIENS" : 21
     },
 
     "PIN_BAR_COLOR" : {
-        "VA" : 2,
-        "VIENS" : 2
+        "VA" : 4,
+        "VIENS" : 17
     },
 
-    "PIN_RAD1" : 2,
+    "PIN_RAD1" : 5,
 
-    "PIN_RAD2" : 3,
+    "PIN_RAD2" : 6,
 
     "PIN_VOLET": {
-        "DOWN": 1,
-        "UP": 2,
-        'INTERUPT': 3
+        "DOWN": 20,
+        "UP": 16,
+        'INTERUPT': 12
     }
 }
