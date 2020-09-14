@@ -72,15 +72,15 @@ def switch_rad_2():
     return run_program("switch_interupt", ['PIN_RAD2'])
 
 @app.route('/volet_stop')
-def switch_rad_2():
+def volet_stop():
     return run_program("volet", ['PIN_VOLET', 'STOP'])
 
 @app.route('/volet_up')
-def switch_rad_2():
+def volet_up():
     return run_program("volet", ['PIN_VOLET', 'UP'])
 
 @app.route('/volet_down')
-def switch_rad_2():
+def volet_down():
     return run_program("volet", ['PIN_VOLET', 'DOWN'])
 
 
